@@ -1,8 +1,14 @@
-import React from "react";
-import Game from "./components/Game";
+import './App.css';
+import AnimalTable from './components/AnimalTabel'
 
-const App = () => {
-  return <Game />;
-};
+
+function App() {
+  return (
+    <div>
+      <AnimalTable/>
+
+    </div>
+  );
+}
 
 export default App;
