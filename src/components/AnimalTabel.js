@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-import { animals } from '../AnimalsDb';
+import { animals } from '../AnimalDb';
 import '../compo.css';
 function AnimalTable(props) {
     
@@ -46,7 +46,7 @@ function AnimalTable(props) {
                                 <div key={animal.name}
                                     onClick={() => handleAnimalClick(animal.name)} className="animalItem">
                                   
-                                    <img src={`/assets/${animal.img}`} alt={animal.name} className='animalImage' />
+                                    <img src={`/images/${animal.img}`} alt={animal.name} className='animalImage' />
                             </div> 
                             ))}
                        </td>
